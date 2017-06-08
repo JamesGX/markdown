@@ -7,8 +7,8 @@ package markdown
 import (
 	"strings"
 
-	"github.com/golang-commonmark/markdown/byteutil"
-	"github.com/golang-commonmark/markdown/linkify"
+	"github.com/JamesGX/markdown/byteutil"
+	"github.com/JamesGX/markdown/linkify"
 )
 
 func isLinkOpen(s string) bool {

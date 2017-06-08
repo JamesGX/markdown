@@ -12,7 +12,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/golang-commonmark/markdown/html"
+	"github.com/JamesGX/markdown/html"
 	"github.com/opennota/urlesc"
 )
 

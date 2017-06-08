@@ -4,7 +4,7 @@
 
 package markdown
 
-import "github.com/golang-commonmark/markdown/html"
+import "github.com/JamesGX/markdown/html"
 
 func ruleEntity(s *StateInline, silent bool) (_ bool) {
 	pos := s.Pos

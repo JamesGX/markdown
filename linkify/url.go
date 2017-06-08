@@ -7,7 +7,7 @@ package linkify
 import (
 	"unicode/utf8"
 
-	"github.com/golang-commonmark/markdown/byteutil"
+	"github.com/JamesGX/markdown/byteutil"
 )
 
 func atoi3(s string, start int) (int, bool) {

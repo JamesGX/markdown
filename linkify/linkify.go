@@ -8,7 +8,7 @@ package linkify
 import (
 	"unicode/utf8"
 
-	"github.com/golang-commonmark/markdown/byteutil"
+	"github.com/JamesGX/markdown/byteutil"
 )
 
 // Link represents a link found in a string with a schema and a position in the string.

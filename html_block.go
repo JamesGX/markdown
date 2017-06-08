@@ -8,7 +8,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/golang-commonmark/markdown/byteutil"
+	"github.com/JamesGX/markdown/byteutil"
 )
 
 var (

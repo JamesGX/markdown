@@ -7,7 +7,7 @@ package markdown
 import (
 	"strconv"
 
-	"github.com/golang-commonmark/markdown/byteutil"
+	"github.com/JamesGX/markdown/byteutil"
 )
 
 var (

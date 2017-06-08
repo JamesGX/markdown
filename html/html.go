@@ -10,7 +10,7 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/golang-commonmark/markdown/byteutil"
+	"github.com/JamesGX/markdown/byteutil"
 )
 
 const runeError = string(utf8.RuneError)

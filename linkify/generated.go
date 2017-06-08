@@ -1,6 +1,6 @@
 package linkify
 
-import "github.com/golang-commonmark/markdown/byteutil"
+import "github.com/JamesGX/markdown/byteutil"
 
 func match(s string) int {
 	st := 0

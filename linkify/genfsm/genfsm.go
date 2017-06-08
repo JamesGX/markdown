@@ -14,7 +14,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/golang-commonmark/markdown/byteutil"
+	"github.com/JamesGX/markdown/byteutil"
 )
 
 var output = flag.String("o", "", "Output file")
@@ -90,7 +90,7 @@ func main() {
 	buf := bytes.NewBuffer(nil)
 
 	fmt.Fprintf(buf, `package %s
-			import "github.com/golang-commonmark/markdown/byteutil"
+			import "github.com/JamesGX/markdown/byteutil"
 	`, pkg)
 	fmt.Fprintf(buf, `
 	func %s(s string) int {

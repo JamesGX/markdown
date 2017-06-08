@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/golang-commonmark/markdown/html"
+	"github.com/JamesGX/markdown/html"
 )
 
 type Renderer struct {

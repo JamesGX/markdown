@@ -4,7 +4,7 @@
 
 package markdown
 
-import "github.com/golang-commonmark/markdown/byteutil"
+import "github.com/JamesGX/markdown/byteutil"
 
 var (
 	schemecs [256]bool
